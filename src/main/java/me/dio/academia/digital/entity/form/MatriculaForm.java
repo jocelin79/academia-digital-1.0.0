@@ -13,6 +13,6 @@ import lombok.NoArgsConstructor;
 public class MatriculaForm {
 
   @NotNull(message = "Preencha o campo corretamente.")
-  @Positive(message = "O Id do aluno p´recisa ser positivo.")
+  @Positive(message = "O Id do aluno precisa ser positivo.")
   private Long alunoId;
 }

@@ -31,7 +31,7 @@ public class AlunoController {
   }
 
   @PostMapping
-  public Aluno create(@RequestBody AlunoForm form){
+  public Aluno create(@Valid @RequestBody AlunoForm form){
     return service.create(form);
   }
 
